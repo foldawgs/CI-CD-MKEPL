@@ -1,7 +1,6 @@
-package src.test.java;
+package mypackage;
 
 import static org.junit.Assert.*;
-import src.main.java.*;
 import org.junit.Test;
 
 public class CounterTest {
