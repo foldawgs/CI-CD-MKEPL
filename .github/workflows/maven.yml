@@ -38,10 +38,10 @@ jobs:
           echo "Inside the project directory"
 
           echo "Build With Maven"
-          sudo mvn clean install
+          mvn clean install
 
           echo "Testing With Maven"
-          sudo mvn test
+          mvn test
 
           echo "Build and test completed"
 
